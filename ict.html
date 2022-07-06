@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Progress Report</title>
+  <link href='ict.css' rel="stylesheet">
+  </link>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Student Progress Report</h1>
+
+    <div class="dropDown">
+      <!-- <label for="classSelector">Class</label><br> -->
+      <select id="classSelector" onchange="classSelected()"></select>
+
+
+
+
+      <!-- <label for="levelSelector">Performance Level</label><br> -->
+      <select id="levelSelector" size="1" required onchange="levelSelected()"></select>
+
+      <button id="getsButton" onclick="getData()" disabled>Get Report</button>
+
+    </div>
+
+
+    <div class="tableCont">
+      <p class="tableHeading">Class Results</p>
+
+      <div class="flexer">
+        <div class="tableContainer" id="tableContainer">
+        </div>
+        <button class="slider" value="0" onclick="Scroller(this)">
+          < </button>
+            <button class="slider" value="1" onclick="Scroller(this)">></button>
+
+      </div>
+    </div>
+
+    <span class="highCircle">&#9679;</span>
+    <span class="medCircle">&#9679;</span>
+    <span class="lowCircle">&#9679;</span>
+
+
+
+
+    <p id="demo1"> </p>
+  </div>
+  <script src="ict.js"></script>
+
+</body>
+
+</html>

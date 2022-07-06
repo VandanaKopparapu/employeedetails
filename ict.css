@@ -1,0 +1,160 @@
+body {
+  align-items: center;
+  text-align: center;
+  }
+  .container {
+  padding: 0 2%;
+  }
+  h1 {
+  font-family: Saira;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  }
+  
+  select {
+  height: 40px;
+  width: 212px;
+  font-family: noto-sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 5px;
+  }
+  
+  button {
+  height: 40px;
+  width: 128px;
+  font-family: noto-sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  background: #009dd1;
+  color: #ffffff;
+  border-radius: 3px;
+  }
+  
+  button:disabled,
+  button[disabled] {
+  background: #9bcedf;
+  }
+  
+  .table-container {
+  align-items: center;
+  text-align: center;
+  }
+  
+  .highCircle {
+  color: #149690;
+  }
+  .medCircle {
+  color: #ee6b00;
+  }
+  .lowCircle {
+  color: #c6382f;
+  }
+  
+  #table-container > table,
+  th,
+  td {
+  border-collapse: collapse;
+  color: black;
+  /* border: black 1.5px solid; */
+  padding: 3px 5px;
+  text-align: center;
+  }
+  
+  tr:nth-child(odd) {
+  background-color: #f4f4f4;
+  }
+  
+  .tableCont {
+  margin: auto;
+  /* width: 45%; */
+  }
+  
+  .tableHeading {
+  background-color: #009dd1;
+  padding: 5px 10px;
+  margin: 10px 10px 0 15vw;
+  max-width: 100px;
+  color: white;
+  
+  border-radius: 5px 5px 0% 0%;
+  }
+  
+  table {
+  width: 900px;
+  height: fit-content;
+  margin: auto;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  background:lightgray;
+  color: #4d3434;
+  border-top: #009dd1 solid 3px;
+  
+  }
+  
+  th {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 3px;
+  border-bottom: burlywood solid 3px;
+  }
+  td {
+  padding: 15px 0 15px 10px;
+  }
+  
+  .slider {
+  display: none;
+  }
+  
+  .dropDown {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  @media screen and (max-width: 800px) {
+  table {
+  width: 700px;
+  }
+  .container {
+  padding: 0;
+  }
+  .hidden {
+  display: none;
+  }
+  .slider {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  border: none;
+  color: black;
+  background-color: #dbcdcd;
+  /* font-size: large; */
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: burlywood solid 3px;
+  border-top: #009dd1 solid 3px;
+  }
+  
+  .flexer {
+  display: flex;
+  }
+  .tableHeading {
+  background-color: #009dd1;
+  padding: 5px 10px;
+  margin: 10px 10px 0 10px;
+  max-width: 100px;
+  color: white;
+  border-radius: 5px 5px 0% 0%;
+  }
+  }
+  
+  
